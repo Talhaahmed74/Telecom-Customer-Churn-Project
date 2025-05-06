@@ -1,0 +1,59 @@
+/* AdminLogin.css */
+.main{
+  padding:0px;
+  margin:0px;
+  display: flex;
+  background: linear-gradient(to bottom, #3aaae9, #c8dff6);
+  min-height: 100vh;
+
+
+}
+
+.login-form-container {
+  flex: 1; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width:700px;
+  color: white !important;
+}
+
+.login-form {
+  width: 500px;
+  background-color: transparent;
+}
+
+.welcome-section {
+  flex: 1;
+  background-color:white;
+  max-width:45%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login-button {
+  width: 100%;
+  color: white !important;
+  background-color: #2184bd !important;
+}
+.login-button:hover{
+  background-color: #09517b !important;
+}
+
+.input-field {
+  border-radius: 90px;
+  background-color: white !important;
+}
+
+.font-roboto-mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
